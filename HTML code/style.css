@@ -1,0 +1,387 @@
+
+/**Default css start**/
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+img{
+    max-width: 100%;
+}
+.container{
+    max-width: 1500px;
+    margin: 0 auto;
+}
+body{
+    font-family: 'Georama', sans-serif;
+    height: 4000px;
+}
+ul{
+    list-style: none;
+}
+a{
+    text-decoration: none;
+}
+.container-another{
+    max-width: 800px;
+    margin: 0 auto;
+   
+}
+
+/**Default css end**/
+
+/** Header css start **/
+.header-section{
+    position: absolute;
+    top: 30px;
+    width: 100%;
+}
+.header-menu{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+
+.logo span{
+    color: #fff;
+    font-size: 30px;
+    display: block;
+    margin-left: 40px;
+}
+
+.menu ul{
+    display: flex;
+    gap: 45px;
+}
+
+.menu ul li a{
+    color: #fff;
+    font-size: 17px;
+    display: block;
+    margin-right: 40px;
+}
+
+
+/** Header css end **/
+
+
+/** Hero css start **/
+.hero-section{
+    height: 98vh;
+    background-image: url(../image/hosting-landing-page.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+}
+.hero-content{
+    width: 50%;
+   
+}
+.extra-div{
+    width: 50%;
+}
+
+.primary-heading{
+    color: #fff;
+    font-size: 35px;
+}
+
+.secondary-heading{
+    color: #fdd430;
+    margin: 1.5rem 0;
+}
+.primary-description{
+    color: #fff;
+    line-height: 1.7rem;
+    margin-bottom: 30px;
+}
+
+
+.hero-btn{
+    color: #2d2c2d;
+    background-color: #fff;
+    display: inline-block;
+    text-transform: uppercase;
+    font-weight: 500;
+    padding: 12px 20px;
+}
+
+.shape {
+    text-align: center;
+    position: relative;
+    top: -49px;
+    z-index: -1;
+}
+.shape-line {
+    width: 2px;
+    height: 50px;
+    background-color: #0c0f38;
+    margin: 0 auto;
+    position: relative;
+    top: -15px;
+    z-index: -1;
+}
+/** Hero css end **/
+
+/** Hosting css start **/
+.hosting-section{
+    padding: 2px 0;
+}
+.hosting-details{
+    text-align: center;
+}
+
+.image-hosting{
+    padding-top: 60px;
+}
+
+.secondary-hosting-title {
+    font-size: 30px;
+    font-weight: 500;
+}
+.hosting-description{
+    font-weight: 500px;
+    margin: 0 auto;
+    line-height: 1.7rem;
+    padding-top: 15px;
+    font-size: 13px;
+}
+
+.hosting-btn{
+    display: inline-block;
+    margin-top: 40px;
+    background-color: #0c0f38;
+    color: #fff;
+    padding: 12px 30px;
+}
+/*** Hosting css end ***/
+/**Card section start**/
+.card-section{
+    background-color:rgb(11, 14, 55) ;
+    padding: 60px 0;
+    margin-top: 80px;
+}
+.content-service{
+    text-align: center;
+    color: white;
+}
+.service-title{
+    font-size: 35px;
+    padding: 20px 0;
+    font-family: 500;
+    
+}
+.service-prg{
+    padding: 10px 0 30px 0;
+    font-size: 20px;
+    line-height: 21px;
+    font-weight: 300;
+
+}
+.service-card{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    padding-left: 30px;
+}
+.card-item{
+    width: 31%;
+    border: 1px solid rgb(155, 157, 173);
+    border-radius: 10px;
+    padding: 40px 30px 0 30px;
+    transition: .8s;
+}
+
+.card-text{
+    padding: 10px 0 30px 0px;
+}
+.card-main{
+    padding: 10px;
+}
+.card-img{
+    background-color: white;
+    height: 100px;
+    width: 100px;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto;
+}
+.card-prg{
+    font-size: 12px;
+    line-height: 18px;
+    font-weight: 500;
+} 
+.card-btnn{
+    padding: 55px 0;
+}
+.btn{
+    padding: 15PX 25px;
+    color: black;
+    background-color: white;
+}
+.card-item:hover{
+    background-color:rgb(131, 8, 235);
+}
+
+/**Card section end**/
+
+
+/* card service css start*/
+.cardservice-section{
+    padding: 55px 0;
+    text-align: center;
+}
+
+.card-title{ 
+    padding: 20px;
+    font-weight: 700;
+    font-size: 35px;
+    color: #0c0f38;
+}
+.card-service-pr{
+    line-height: 25px;
+    color: rgba(0, 0, 0 ,.6);
+    font-size: 15px;
+    font-weight: 300;
+}
+.card-service{
+    padding: 60px 30px;
+    display: flex;
+    gap: 20px;
+}
+.main-card{
+    padding: 60px 40px;
+    width: 32%;
+    box-shadow: 0 0 10px rgba(0, 0, 0 ,.2);
+    border-radius: 20px;
+    transition: .5s;
+
+}
+.card-image{
+    padding-bottom: 30px;
+}
+.card-head{
+    color:purple;
+    font-size: 20px;
+    font-weight: 500;
+}
+.service-prg{
+    padding: 20px 0;
+    line-height: 24px;
+    font-size: 15px;
+    font-weight: 500;
+}
+.btn-card{
+    display: flex;
+    justify-content:center;
+    gap: 250px;
+    padding-bottom: 10px;
+  
+}
+.card-btn{
+    padding: 10px 0;
+ 
+   
+  
+}
+.btn-chart{
+    padding: 15px 25px;
+    background-color: #0c0f38;
+    color: white;
+    margin-right: 50px;
+  
+}
+.main-card:hover{
+    background-color: rgb(131, 8, 235);
+    z-index: 1;
+    color: #fff;
+   
+}
+/* card service css end*/
+
+
+/*form section css start*/
+.form-section{
+    text-align: center;
+    margin-bottom: -320px;
+    
+ }
+ .form-part{
+     background-color: rgb(12, 15, 56);
+     height: 500px;
+     width: 560px;
+     margin: 0 auto;
+     padding: 60px 0;
+     border-radius: 20px;
+ }
+ .input-field{
+     width:85%;
+     margin-bottom: 10px;
+     padding: 15px 18px;
+     border-radius: 12px;
+     border: 2px solid #fff;
+     outline: none;
+     background-color:rgb(236, 236, 236);
+     color:rgba(0, 0, 0 ,.5);
+ 
+ }
+ .input-field::placeholder{
+     font-size: 16px;
+ }
+ .form-btn{
+     display: inline-block;
+     padding: 15px 60px;
+     outline: none;
+     border: none;
+     background-color:rgb(123, 8, 221);
+     font-size: 16px;
+     border-radius: 30px;
+     margin-top: 20px;
+     cursor: pointer;
+     color: white;
+ }
+ 
+ /*form section css end*/
+ /*footer section css start*/
+ .footer-section{
+     padding: 350px 0 60px 0;
+     background-color:rgb(12, 15, 56) ;
+     text-align: center;
+     font-family:'Montserrat Alternates', sans-serif ;
+     color: white;
+ }
+ .footer-second-title{
+    font-size: 40px;
+    padding: 10px 0;
+    font-weight: 600;
+    margin-top: 18px;
+}
+
+
+ .footer-title{
+     font-size: 30px;
+     padding: 20px 0;
+    
+ }
+
+ .footer-pr{
+     font-size: 20px;
+     line-height: 28px;
+     font-weight: 500;
+ }
+ 
+ /*footer section css end*/
+
+ /*copy right css start*/
+ .copy-right{
+     padding: 20px;
+     text-align: center;
+ }
+ /*copy right css end*/
